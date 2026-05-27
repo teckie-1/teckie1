@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Homelab Overview — What I&#x27;m Running and Why | Teckie1</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="robots" content="noodp"/>
+
+    <link rel="stylesheet" href="https://www.teckie1.com/style.css">
+    <link rel="stylesheet" href="https://www.teckie1.com/color/blue.css">
+
+        <link rel="stylesheet" href="https://www.teckie1.com/color/background_dark.css">
+    
+    <link rel="stylesheet" href="https://www.teckie1.com/font-hack-subset.css">
+
+    <meta name="description" content="">
+
+    <meta property="og:description" content="">
+    <meta property="og:title" content="Homelab Overview — What I'm Running and Why | Teckie1">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.teckie1.com/posts/01-homelab-overview/">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="Homelab Overview — What I'm Running and Why | Teckie1">
+    <meta property="twitter:domain" content="www.teckie1.com">
+    <meta property="twitter:url" content="https://www.teckie1.com/posts/01-homelab-overview/">
+
+    </head>
+
+<body class="">
+<div class="container">
+    
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                    
+                <a href="/" style="text-decoration: none;">
+                    <div class="logo">
+                      
+                            teckie1
+                        
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        
+        
+                <nav class="menu">
+            <ul class="menu__inner">
+                <li class="active"><a href="https://www.teckie1.com">blog</a></li>
+            
+                <li><a href="https://www.teckie1.com/about">about</a></li>
+            
+                <li><a href="https://github.com/teckie-1" target="_blank" rel="noopener noreferrer">github</a></li>
+            </ul>
+        </nav>
+    
+    
+        
+    </header>
+    
+
+    <div class="content">
+        
+    <div class="post">
+        
+    <h1 class="post-title"><a href="https://www.teckie1.com/posts/01-homelab-overview/">Homelab Overview — What I&#x27;m Running and Why</a></h1>
+    <div class="post-meta-inline">
+        
+    <span class="post-date">
+            2026-05-26
+        </span>
+
+    </div>
+
+    
+
+        <div class="post-content">
+            <h1 id="my-homelab-overview">My homelab overview</h1>
+<h2 id="background">Background</h2>
+<p>I started thinking about a homelab in 2023 when i was in school for Computer Science at my local community college. One of the main things that people were saying, seemed like everywhere that i looked, was "make a homelab for learning and testing". I'm a person that if i see or hear something that interest me, i dive down the rabbit hole, headfirst. After doing some internet searches on homelabs, I was hooked. During that research was when I really started to come across and learn about Cybersecurity. So that became my goal, to build and homelab to help me learn Cybersecurity. I started out like probably everyone else. By using virtualization software (vmware fusion) to install kali linux on my macbook pro. Fast forward a little bit and i was able to get an old 2012 hp laptop from a friend and decided to try and install a vulnerable machine on it. My idea was to use kali on my macbook to connect to my vulnerable machine (on the hp) and read writeups in order to kind of follow along. Even though i was reading along and trying it on my own hardware, I was horrible at it, everything seemed so strange and difficult. While self-learning, I came across homelabbing sub-reddits. That really planted a major seed.</p>
+<h2 id="what-i-m-running">What I'm running</h2>
+<p>I am running Proxmox Virtual Environment. It has a X99 motherboard, 32GB of DDR4 Ram, GTX 980 GPU (that really isn't in use for anything) 512GB M.2 NVME OS drive and 12TB HDD for all of the heavy lifting. For home networking, I now use a Sophos XG 135 Rev.3 Firewall running opnsense. A TP-link TL-SG2009P - Jetstream 8-port gigabit smart managed POE switch with a TP-link OC200 hardware controller for centralized management. I have one TP-link EAP650 access point with more to come soon.</p>
+<h2 id="services">Services</h2>
+<ul>
+<li>Nextcloud: For family file storage.</li>
+<li>Seafile: Work credentials and document solution. Used to organize things that I need for working on DVR/NVR camera systems.</li>
+<li>Navidrome: Self hosting my large FLAC library.</li>
+<li>Cloudflared: Tunnel agent for external access. Exposes Nextcloud, Navidrome and, Seafile.</li>
+<li>ZNC: IRC bouncer</li>
+<li>Homebridge: Brings my ESP devices into my Apple Home ecosystem.</li>
+<li>SMB: Home file share.</li>
+<li>Immich: Image and Video storage.</li>
+</ul>
+<h2 id="what-s-next">What's next</h2>
+<p>Next, I would like to build a honeypot. Details on the way..</p>
+
+        </div>
+
+        
+    </div>
+
+    </div>
+
+    
+    <footer class="footer">
+        <div class="footer__inner">
+                <div class="copyright">
+                        <span>© 
+    2026
+ Michael Mcknight</span>
+                    <span class="copyright-theme">
+                        <span class="copyright-theme-sep">:: </span>
+                        Theme: <a href="https://github.com/pawroman/zola-theme-terminimal/">Terminimal</a> by pawroman
+                    </span>
+                </div>
+            </div>
+    </footer>
+    
+
+</div>
+</body>
+
+</html>
