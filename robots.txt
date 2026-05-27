@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://teckie1.com/sitemap.xml
+Sitemap: https://www.teckie1.com/sitemap.xml
