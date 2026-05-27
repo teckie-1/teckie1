@@ -8,6 +8,7 @@ date = 2026-05-26
 ## Background
 
 I started thinking about a homelab in 2023 when i was in school for Computer Science at my local community college. One of the main things that people were saying, seemed like everywhere that i looked, was "make a homelab for learning and testing". I'm a person that if i see or hear something that interest me, i dive down the rabbit hole, headfirst. After doing some internet searches on homelabs, I was hooked. During that research was when I really started to come across and learn about Cybersecurity. So that became my goal, to build and homelab to help me learn Cybersecurity. I started out like probably everyone else. By using virtualization software (vmware fusion) to install kali linux on my macbook pro. Fast forward a little bit and i was able to get an old 2012 hp laptop from a friend and decided to try and install a vulnerable machine on it. My idea was to use kali on my macbook to connect to my vulnerable machine (on the hp) and read writeups in order to kind of follow along. Even though i was reading along and trying it on my own hardware, I was horrible at it, everything seemed so strange and difficult. While self-learning, I came across homelabbing sub-reddits. That really planted a major seed.
+<!-- more -->
 
 ## What I'm running
 
