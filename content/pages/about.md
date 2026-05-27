@@ -6,12 +6,12 @@ path = "about"
 # Hi, I'm Michael 👋
 
 ```text
-| ROLE    : Cybersecurity Student (WGU)          |
-| LAB     : Proxmox + VLANs + OPNsense           |
-| HOST    : abyss                                 |
-| DESKTOP : Arch Linux + SwayFX                  |
-| LAPTOP  : EndeavourOS + SwayFX                 |
-| EDITOR  : Neovim                               |
+| ROLE    : Cybersecurity Student (WGU)                    |
+| LAB     : Proxmox + VLANs + OPNsense                     |
+| HOST    : abyss                                          |
+| DESKTOP : Arch Linux + SwayFX                            |
+| LAPTOP  : EndeavourOS + SwayFX                           |
+| EDITOR  : Neovim                                         |
 | FOCUS   : Security • Infrastructure • Linux • Automation |
 ```
 
