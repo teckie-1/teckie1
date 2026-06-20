@@ -1,3 +1,8 @@
++++
+title = "Building a Credential and Documentation Manager for My Camera Tech Team"
+date = 2026-06-19
++++
+
 # Building a credential and documentation manager for my camera team
 
 I'm a Camera systems tech for a local commuter bus company. Not exactly "tech," but it's the closest thing I've landed so far in my journey.
