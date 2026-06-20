@@ -7,8 +7,10 @@ date = 2026-06-19
 
 I'm a Camera systems tech for a local commuter bus company. Not exactly "tech," but it's the closest thing I've landed so far in my journey.
 I'm one of three people that installs, configures and wire the DVR and NVR camera systems in the buses.
-We work with IP addresses, credentials, and wiring diagrams across maybe a dozen different systems, and you never know what's going to go wrong during an install. We 
+We work with IP addresses, credentials, and wiring diagrams across maybe a dozen different systems, and you never know what's going to go wrong during an install. We
 also have to be ready to tear apart things to replace our camera wires if need be.
+
+<!-- more -->
 
 ## The problem
 
@@ -36,7 +38,7 @@ right there.
 
 On the access control side, I'm the only one who can create accounts, and everyone uses
 a unique password. It's not a full password manager setup, but the goal was something the team
-would actually use, and they do. 
+would actually use, and they do.
 
 ## The Results
 
@@ -44,5 +46,4 @@ No more lost credentials, no more waiting days for engineers to dig through docu
 Everything lives in one place, accessible from anywhere. The team picked it up immediately and it's
 been running without issues.
 
-  Seafile for the win!! 
----
+## Seafile for the win
