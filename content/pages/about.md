@@ -3,7 +3,7 @@ title = "About"
 path = "about"
 +++
 
-# Hi, I'm Michael 👋
+# Hi, I'm Mike 👋
 
 ```text
 | ROLE    : Cybersecurity Student (WGU)                    |
