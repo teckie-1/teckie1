@@ -31,4 +31,4 @@ For home networking, I now use a Sophos XG 135 Rev.3 Firewall running opnsense. 
 
 ## What's next
 
-Continue using NixOS and on my machines, studying for CompTIA A+, learning the basics of Python.
+Continue using NixOS on my machines, studying for CompTIA A+, and learning the basics of Python.
