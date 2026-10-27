@@ -3,7 +3,7 @@ title = "Homelab Overview — What I'm Running and Why"
 date = 2026-05-26
 +++
 
-# My homelab overview
+## My homelab overview
 
 ## Background
 
@@ -12,19 +12,23 @@ I started thinking about a homelab in 2023 when i was in school for Computer Sci
 
 ## What I'm running
 
-I am running Proxmox Virtual Environment. It has a X99 motherboard, 32GB of DDR4 Ram, GTX 980 GPU (that really isn't in use for anything) 512GB M.2 NVME OS drive and 12TB HDD for all of the heavy lifting. For home networking, I now use a Sophos XG 135 Rev.3 Firewall running opnsense. A TP-link TL-SG2009P - Jetstream 8-port gigabit smart managed POE switch with a TP-link OC200 hardware controller for centralized management. I have one TP-link EAP650 access point with more to come soon.
+*Currently I am running a Contabo VPS with Wireguard. My home server (Abyss) died recently, either the motherboard or cpu was at the end of it's life. Instead of just buying new parts for it, I am going to completely rebuild it in a server case and place it in a rack.*
+
+(**Abyss**: I was running Proxmox Virtual Environment. It has a X99 motherboard, 32GB of DDR4 Ram, GTX 980 GPU (that really isn't in use for anything) 512GB M.2 NVME OS drive and 12TB HDD for all of the heavy lifting.)
+
+For home networking, I now use a Sophos XG 135 Rev.3 Firewall running opnsense. A TP-link TL-SG2009P - Jetstream 8-port gigabit smart managed POE switch with a TP-link OC200 hardware controller for centralized management. I have one TP-link EAP650 access point with more to come soon.
 
 ## Services
 
-- Nextcloud: For family file storage.
-- Seafile: Work credentials and document solution. Used to organize things that I need for working on DVR/NVR camera systems.
-- Navidrome: Self hosting my large FLAC library.
-- Cloudflared: Tunnel agent for external access. Exposes Nextcloud, Navidrome and, Seafile.
-- ZNC: IRC bouncer
-- Homebridge: Brings my ESP devices into my Apple Home ecosystem.
-- SMB: Home file share.
-- Immich: Image and Video storage.
+- Nextcloud: For family file storage. (Removed)
+- Seafile: Work credentials and document solution. Used to organize things that I need for working on DVR/NVR camera systems. (Migrated to VPS)
+- Navidrome: Self hosting my large FLAC library. (Removed)
+- Cloudflared: Tunnel agent for external access. Exposes Nextcloud, Navidrome and, Seafile. (Migrated)
+- ZNC: IRC bouncer (Not yet migrated)
+- Homebridge: Brings my ESP devices into my Apple Home ecosystem. (Waiting for home server build)
+- SMB: Home file share. (Migrated)
+- Immich: Image and Video storage. (Migrated)
 
 ## What's next
 
-Next, I would like to build a honeypot. Details on the way..
+Continue using NixOS and on my machines, studying for CompTIA A+, learning the basics of Python.
